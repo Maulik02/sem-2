@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form id="demo">
+	Enter Your Name:<input type="text" id="text1">
+</form>
+<script type="text/javascript">
+	let x = document.getEementById("demo")
+	x.addEventListener("focus",text1,true);
+	x.addEventListener("blur",text2,true);
+	function text1(){
+		document.getEementById("text1")."syle=background-color=red"
+	}
+
+	function text2(){
+		document.getEementById("text1").syle=background-color=""
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<html>
+<head>
+<title> DATE OF BIRTH FROM</title>
+</head>
+<body>
+
+
+<form>
+<fieldset>
+<legend>Personal Details</legend>
+
+salutation
+<select name="salutation">
+<option>--Nome--</option>
+<option value="Mr.">Mr.</option>
+<option value="Ms.">Ms.</option>
+<option value="Mrs.">Mrs.</option>
+<option value="Dr.">Dr.</option>
+<option value="Prof.">Prof.</option>
+</select>
+
+<br><br>First Name :<input type="text" placeholder="enter your name"required>
+
+<br><br>Last Name :<input type="text" placeholder="enter your name"required>
+
+<br><br>Gender :<input type="radio" name="gender" value="grnder" checked>Male
+<input type="radio" name="gender" value="grnder">Female
+
+<br><br><label for="email">Email :</label>
+<input type="email" id="email" name="email" placeholder="enter your email"required/><br>
+
+<p>
+Phone No: +91<input type="tel" size="10" placeholder="number" required minlength="10" maxlength="10" placeholder="enter your number"/>
+</p>
+
+
+Choose Language:<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"required>
+  <label for="vehicle1"> Hindi</label>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Engkish</label>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Sanskrit</label><br>
+  
+
+
+<p>
+<label>Date of Birth :<input type="date" name="birthdate"required>
+</label>
+</p>
+
+<p>
+<label>Time :<input type="time" name="time"required>&nbsp;<select name="time"required>
+<option value="am">AM</option>
+<option value="pm">PM</option></select>
+</label>
+</p>
+
+Address :<br><textarea  name="welcome message"  rows="3" cols="30" placeholder="type Your content here..."required></textarea>
+
+<p>
+Pin Cod: <input type="tel" size="10" placeholder="pin cod" required minlength="6" maxlength="6" placeholder="enter pin cod"/>
+</p>
+
+<p>
+<button type="Submit">Submit</button>
+</p>
+
+</from>
+
+</fieldset>
+
+</body>
+</html>
